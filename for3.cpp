@@ -1,11 +1,10 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int i;
-    for (int i=1;i<=20;i=i+2)
-    {
-        cout<<i<<endl;
+int main(){
+    for (int i=0;i<5;i++){
+        cout<<"hi"<<endl;
+        cout<<"hello"<<endl;
+        continue;
+        cout<<"reply toh kar do"<<endl;
     }
-    return 0;
 }
